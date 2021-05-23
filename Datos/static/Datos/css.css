@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-image: url(../../static/Datos/img/imagen-fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+
+}
+
+#container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: auto;
+
+}
+
+#container .content {
+    margin: auto;
+    position: absolute;
+    bottom: 35%;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.705);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.botones {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.botones button {
+    margin: 10px;
+}
+
+
+
+
+
+.Buscador {
+    width: 170px;
+    margin: auto;
+
+}
+
+#entrada {
+    border-radius: 3px;
+    height: 40px;
+    background-color: #222f3b;
+    color: rgb(241, 229, 229);
+    float: left;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#entrada:hover {
+    box-shadow: 0px -2px 38px 0px rgba(0, 255, 32, 0.75);
+}
+
+#entrada::placeholder {
+    color: white;
+    font-size: 10px;
+}
+
+#boton {
+    border-radius: 3px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    float: right;
+    border: 0;
+}
+
+
+
+
+.flexi {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flexi .w3-container {
+    flex-basis: 31.333333%;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-wrap: row;
+    position: sticky;
+    float: right;
+    bottom: 0;
+    width: 30%;
+    color: white;
+    z-index: 1000;
+}
+
+.footer img {
+    width: 50px;
+    margin: 3px;
+}
+
+.Buscador {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.foot2 {
+    bottom: 0;
+    position: sticky;
+    float: left;
+    z-index: 1000;
+}
+
+.imagen-mail {
+    width: 50px;
+    margin: 3px;
+}
+#foot-three{
+    bottom: 20%;
+    position: sticky;
+    z-index: 1000;
+    float: right;
+    visibility: hidden;
+}
+#foot-three img{
+    opacity: 0.5;
+}
+#change{
+    bottom: 20%;
+    position: sticky;
+    z-index: 1000;
+    float: right;
+    visibility:visible;
+}
+#change img{
+    opacity: 0.5;
+}

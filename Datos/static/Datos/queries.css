@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px){
+    .footer img{
+        width:2rem;
+    }
+    #container .content{
+        bottom:3%;
+    }
+    .flexi{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .flexi .w3-container{
+        flex: 0 0 100%;
+        font-size: 5vw;
+    }
+    .flecha{
+        position: sticky;
+        visibility: visible;
+    }
+    .formulario{
+        zoom: 1.5;overflow-y: hidden;
+    }
+    .imagen-mail{
+        width: 2.5rem;
+    }
+}
